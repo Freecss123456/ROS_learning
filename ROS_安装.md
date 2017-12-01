@@ -36,6 +36,10 @@ $ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 9 为了确认你的工作空间已经被至于最顶层，确认环境变量ROS_PACKAGE_PATH包含了你所在的目录：
 $ echo $ROS_PACKAGE_PATH
 
+10 进入src创建相应包
+$ catkin_create_pkg inter_camera std_msgs rospy roscpp
+
+
 
 
 

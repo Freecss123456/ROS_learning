@@ -18,3 +18,11 @@ python默认安装目录在/usr/local/lib/python2.7，可以通过 /usr/local/bi
        sudo ln -s /usr/local/bin/python2.7 /usr/bin/python
 
 这样在终端输入python显示的默认版本就是2.7.x了
+
+5/make install 时报错：make: *** [libinstall] 错误 1
+没有完全安装，导致import _collections失败
+
+6/考虑以下安装
+sudo add-apt-repository ppa:fkrull/deadsnakes-python2.7
+sudo apt-get update
+sudo apt-get install python2.7

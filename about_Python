@@ -1,0 +1,20 @@
+#-*-ubuntu中python升级-*-
+1.下载
+      在python官网中下载python2.7.x安装包 http://www.python.org/getit/
+2.解压
+      tar   -zxvf Python-2.7.6.tgz
+3.编译安装
+      cd Python-2.7.6
+
+      ./configure
+
+      make 
+
+      make install(需要root权限)
+
+python默认安装目录在/usr/local/lib/python2.7，可以通过 /usr/local/bin/python -V 查看版本号
+4.更改系统默认版本
+       sudo rm /usr/bin/python
+       sudo ln -s /usr/local/bin/python2.7 /usr/bin/python
+
+这样在终端输入python显示的默认版本就是2.7.x了

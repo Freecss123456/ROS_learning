@@ -26,3 +26,10 @@ python默认安装目录在/usr/local/lib/python2.7，可以通过 /usr/local/bi
 sudo add-apt-repository ppa:fkrull/deadsnakes-python2.7
 sudo apt-get update
 sudo apt-get install python2.7
+
+#-*-报错-*-
+
+1、安装 sudo pip install hyper时
+报错：error in cryptography setup command: Invalid environment marker: python_version < '3'
+解决方案：sudo pip install --upgrade setuptools
+

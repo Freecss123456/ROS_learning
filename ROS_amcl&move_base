@@ -16,6 +16,19 @@ occupied_thresh: 0.65
 #当像素占据概率小于0.196的时候，认为完全是空的
 free_thresh: 0.196
 
+2、创建空白地图pgm
+首先安装Gimp
+$ sudo apt-get install gimp
+然后启动gimp, 在”File”->”New”,选择参数如下，创建一个20mX20m，分辨率是100pix/m的地图。注意”Fill with”选择”White” 
+然后，在”File”->”Export” , 保存为pgm格式文件，比如my_map.pgm
+对应的my_map.yaml:
+  image: my_map.pgm
+  resolution: 0.01
+  origin: [-10, -10, 0]
+  occupied_thresh: 0.65
+  free_thresh: 0.196 
+  negate: 0
+
 #-*-move_base配置ymal-*-
 1、costmap_common_params.yaml
 #

@@ -1,0 +1,4 @@
+create_map_simulation£º
+	autolabor_fake_node
+	map_server
+	joy

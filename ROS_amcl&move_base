@@ -7,7 +7,7 @@ http://blog.csdn.net/u010256153/article/details/54923924
 image: /home/carbon/catkin_ws/src/amcl_demo/map/my_map.pgm
 #地图的分辨率 单位是meters/pixel 
 resolution: 0.050000
-# (x, y, yaw), 这里yaw是逆时针旋转角度
+# 地图左下角单元(像素)的2维位姿:(x, y, yaw), 这里yaw是逆时针旋转角度
 origin: [-100.000000, -100.000000, 0.000000]
 #Whether the white/black free/occupied semantics should be reversed 
 negate: 0

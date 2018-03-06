@@ -1,5 +1,6 @@
 导航功能包配置文件参数说明
 http://blog.csdn.net/u010256153/article/details/54923924
+https://www.cnblogs.com/zjiaxing/p/5559382.html
 
 #-*-map_server-*-
 1、关于yaml
@@ -31,8 +32,9 @@ $ sudo apt-get install gimp
 
 #-*-move_base配置ymal-*-
 1、costmap_common_params.yaml
-#
+#障碍物探测,当检测到距离小于2.5m的障碍物，将其引入到代价地图
 obstacle_range: 2.5
+#实时清除代价地图中的障碍物，如该机器人将清除前面距离3m的障碍物
 raytrace_range: 3.0
 #机器人的半径大小
 robot_radius: 0.175

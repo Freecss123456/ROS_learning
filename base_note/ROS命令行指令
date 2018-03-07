@@ -1,0 +1,4 @@
+rospack find roscpp
+roscd roscpp
+rosls roscpp_tutorials
+rospack depends1 rospy

@@ -6,5 +6,5 @@
 #-*-python版-*-
 通过pip install serial 安装serial模块
 
-需要增加/dev/ttyUSB0读写权限，否则报错：could not open port /dev/ttyUSB0: [Errno 13] Permission denied
+需要增加/dev/ttyUSB0读写权限，否则报错：could not open port /dev/ttyUSB0: [Errno 13] Permission denied \
 增加权限：$ sudo chmod 666 /dev/ttyUSB0

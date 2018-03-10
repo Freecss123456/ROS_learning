@@ -1,1 +1,14 @@
-
+#-*-launch文件中的参数-*-
+<launch>
+    <!--参数赋值有以下三种方法-->
+    <!--方法1、声明参数，然后在命令行赋值：$roslaunch package-name launch-file-name arg-name:=arg-value-->
+    <arg name=”agr-name”>
+    <!--方法2、该方法可以用命令行参数覆盖default值-->
+    <arg name=”arg-name” default=”arg-value”/>
+    <!--方法3、该方法不可用命令行参数覆盖default值-->
+    <arg name=”arg-name” value=”arg-value”/>
+    
+    <node>
+    </node>
+    ...
+</launch>

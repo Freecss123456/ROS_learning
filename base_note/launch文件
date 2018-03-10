@@ -8,6 +8,8 @@
     <!--方法3、该方法不可用命令行参数覆盖default值-->
     <arg name=”arg-name” value=”arg-value”/>
     
+    <!--参数的使用-->
+    <param name="use_gui" value="$(arg gui)" />
     <node>
     </node>
     ...

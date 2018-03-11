@@ -18,6 +18,9 @@ http://blog.csdn.net/xuehuafeiwu123/article/details/68060377
 3、#输出B 相对于 A 的坐标
     rosrun tf tf_echo frameA freameB
 
+4、#打印tf树中的所有参考系信息 \
+    rosrun tf tf_monitor [source_frame] [target_target] 如 rosrun tf tf_monitor /base_footprint /odom
+    
 #-*-tf——API-*- \
 static_transform_publisher工具的功能是发布两个参考系之间的静态坐标变换，两个参考系一般不发生相对位置变化。 \
 命令的格式如下： \

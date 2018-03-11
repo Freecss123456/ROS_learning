@@ -13,6 +13,7 @@ http://blog.csdn.net/xuehuafeiwu123/article/details/68060377
 
 2、#在rqt中显示tf树
     rosrun rqt_tf_tree rqt_tf_tree
+   或 rqt & +回车+TAB
     
 3、#输出B 相对于 A 的坐标
     rosrun tf tf_echo frameA freameB

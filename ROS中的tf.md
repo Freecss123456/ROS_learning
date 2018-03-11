@@ -8,8 +8,12 @@ http://blog.csdn.net/xuehuafeiwu123/article/details/68060377
 #-*-tf命令-*- \
 1、#在当前目录生成描述tf树的pdf文件
     rosrun tf view_frames
+  #查看创建的pdf
+   evince frames.pdf
+
 2、#在rqt中显示tf树
     rosrun rqt_tf_tree rqt_tf_tree
+    
 3、#输出B 相对于 A 的坐标
     rosrun tf tf_echo frameA freameB
 

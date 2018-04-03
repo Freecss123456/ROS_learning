@@ -1,0 +1,6 @@
+#常见问题与解决方案
+1、rviz报错无法打开
+[ INFO] [1519612289.671282108]: rviz version 1.11.18
+[ INFO] [1519612289.671330823]: compiled against Qt version 4.8.6
+[ INFO] [1519612289.671345237]: compiled against OGRE version 1.8.1 (Byatis)
+解决方案： rm -rf .rviz/

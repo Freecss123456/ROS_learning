@@ -1,3 +1,5 @@
+#rviz进行gmapping建图：https://blog.csdn.net/akunainiannian/article/details/44993391
+
 #常见问题与解决方案
 1、rviz报错无法打开
 [ INFO] [1519612289.671282108]: rviz version 1.11.18

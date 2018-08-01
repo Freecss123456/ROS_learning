@@ -25,3 +25,18 @@ $ catkin_make –pkg package-name
 
 参考：http://blog.csdn.net/baidu_18189515/article/details/52401329
 
+#*****日志文件*****#   
+查询当前的run_id \
+rosparam get /run_id \
+
+查看当前账户中被ROS日志消耗的硬盘空间 \
+rosclean check \
+
+删除所有已经存在的日志 \
+rosclean purge \
+
+通过图形界面设置日志级别 \
+rqt_logger_level
+
+#*****计算图源*****#  
+Export ROS_NAMESPACE=default-namespace
